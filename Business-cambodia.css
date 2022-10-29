@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Suwannaphum:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&family=Nunito:wght@200;300;600;700&family=Suwannaphum:wght@300&display=swap');
+*{
+    margin: 0;
+    font-family: 'Suwannaphum', cursive;
+    box-sizing: border-box;
+}
+
+.big_container{
+    width: 100%;
+    height: auto;
+    /* background-color: yellowgreen; */
+    display: flex;
+}
+nav {
+    width: 17%;
+    height: 100%;
+    background-color: gainsboro;
+    position: sticky;
+    top: 0;
+    padding: 10px 5px;
+    padding-bottom: 5%;
+      
+}
+
+.big_content{
+    width: 83%;
+    height: 500hv;
+    /* background-color: yellow; */
+    padding-bottom: 5%;
+}
+
+.content{
+    width: 96%;
+    height: 100%;
+    /* background-color: violet; */
+    margin: 0 auto;
+}
+
+.box_logo{
+    width: 80%;
+    height: 60px;
+    /* background-color: aqua; */
+    display: flex;
+    margin: 0 auto;
+}
+.logo{
+    width: 25%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text_logo{
+    width: 75%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+nav input{
+    width: 100%;
+    height: 1%;
+    margin: 10px 0;
+    border: none;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.menu a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 7px 0;
+}
+
+.menu a:hover{
+    background-color: goldenrod;
+}
+
+.menu a:nth-child(1) {
+    background-color: red;
+    color: white;
+}
+
+.content P{
+    padding-top: 2.6%;
+    padding-bottom: 10px;
+}
+
+.content_box{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    border-radius: 15px;
+    position: relative;
+}
+
+.content_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.thum{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.711));
+    position: absolute;
+    border-radius: 15px;
+}
+
+.thum p{
+    position: absolute;
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.thum h1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    font-size: 36px;
+    font-family: 'Moul', cursive;
+    margin-top: 12%;   
+}
+
+.thum span{
+    color: aliceblue;
+    margin-left: 5%;
+    font-weight: 600px;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-top: 30%;
+    position: absolute;
+}
+
+.sport h3{
+    margin: 20px 0px;
+    
+}
+.sport img{
+    width: 500px;
+    border-radius: 15px;
+}
+
+.content_title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.content_title span{
+    color: red;
+}
+
+.content_thum{
+    width: 100%;
+    height: auto;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.box{
+    width: 23%;
+    height: auto;
+    border-radius: 15px;
+    /* background-color: yellowgreen; */
+    box-shadow: 2px 2px 5px gray;
+    transition: 0.5s;
+    
+}
+
+.box img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.title h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.user{
+    padding:  5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    padding: 5px 10px;
+}
+.box:hover {
+    transform: scale(1.05);
+     
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: red; 
+}
+.footer_top{
+    width: 100%;
+    height: 60vh;
+}
+.footer_img{
+    width: 100%;
+    height: 60vh;
+    background-color: yellow;
+    position: absolute;
+}
+.footer_img img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    position: absolute;
+}
+.footer_logo{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.453),rgba(0, 0, 0, 0.711));
+    position: absolute;
+}
+
+.footer_logo img{
+    width: 10%;
+    height: 40%;
+    margin: 0 auto;
+    object-fit: cover;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+.footer_logo h1{
+    width: 30%;
+    height: 10%;
+    font-size: 26px;
+    margin-top: 17%;
+    margin-left: 42%;
+    color: white; 
+    position: absolute;
+}
+
+.footer_logo p{
+    width: 40%;
+    height: 10%;
+    font-size: 20px;
+    margin-top: 20%;
+    margin-left: 36.2%;
+    color: white; 
+    position: absolute;
+}
+
+.footer_text{
+    width: 100%;
+    height: 40vh;
+}
+.footer_text_big{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    display: flex;
+    overflow: hidden;
+    /* background-color: blue; */
+    justify-content: space-between;
+}
+
+.text_start{
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 10%;
+    /* background-color: aqua; */
+    color: #f2f2f2;
+}
+.text_start h1{
+    font-size: 20px;
+}
+
+.text_in{
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    margin-right: 5%;
+    /* background-color: orange; */
+    color: #f2f2f2;
+}
+.text_in h1{
+    font-size: 20px;
+}
+
+.text_last{
+    width: 25%;
+    height: auto;
+    margin-right: 5%;
+    overflow: hidden;
+    /* background-color: orchid; */
+    color: #f2f2f2;
+}
+.text_last h1{
+    font-size: 20px;
+}
+.text p {
+    color: white;
+}
+.text_top{
+    width: 100%;
+    height: 40px;
+    /* background-color: brown; */
+}
+.text_center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 4%;
+}
+.text_left{
+    width: 50%;
+    height: 100%;
+}
+
+.text_right{
+    width: 50%;
+    height: 100%;
+}
+
+.text_end h3{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    margin-top: 2%;
+    text-align: center;
+    /* background-color: aqua; */
+    color: #f2f2f2;
+}
